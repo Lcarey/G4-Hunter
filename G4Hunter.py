@@ -22,7 +22,8 @@ import os, re, sys, getopt
 import time
 import shutil
 import numpy as np
-from matplotlib import pyplot
+from matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from Bio import SeqIO
 
